@@ -1,0 +1,26 @@
+[
+    {
+        "name": "CyberPit text-based game with Python and SQLite",
+        "thumb": "img/cyberpit_th.png",
+        "hero": "img/cyberpit.png",
+        "categories": ["python", "game"],
+        "slug": "cyber-pit",
+        "link": "https://github.com/PyKovacs/CyberPit"
+    },
+    {
+        "name": "Techie blog with Python, Flask and MongoDB",
+        "thumb": "img/micro-blog_th.png",
+        "hero": "img/micro-blog.png",
+        "categories": ["python", "blog"],
+        "slug": "techie-blog",
+        "link": "https://github.com/PyKovacs/CyberPit"
+    },
+    {
+        "name": "Post section REST API with Flask and SQLite",
+        "thumb": "img/api_th.png",
+        "hero": "img/api.png",
+        "categories": ["python", "rest"],
+        "slug": "post-section",
+        "link": "https://github.com/PyKovacs/post-section"
+    }
+]

@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block content %}
+    <main class="main main--project">
+        <div>
+            <img 
+                class="hero" 
+                src="{{ url_for('static', filename=project['hero']) }}" 
+                alt="Two robots fighting in the arena."
+            >
+
+            <article class="project">
+                <article class="project__content">
+                    <h2 class="project__heading">
+                        {{ project['name'] }}
+                    </h2>
+                    <p>
+                        CyberPit is my first larger project in Python. I consider it as my Python playground from early days. I used to play with classes, data structures, app design concepts. <em>I spent most of the time refactoring</em>. I learned simple user management, SQL DB interaction, terminal interaction and much more. I had to abandon this project to create some time for other projects and work. Game is fully playable, although it might need some fine-tuning and user testing. Maybe one day...
+                    </p>
+                    <p>
+                        You play as a techie owning a battle robot, meeting other robots in the arena to fight. Each robot is unique and has unique set of weapons, dealing different points of damage. You get to buy a robot at the start of the game. For each victory you gain more credits and can afford better bot. Bot selection is limited, but can be easily enriched by manually adding custom bots to json file.
+                    </p>
+                    <p>
+                        <strong>Have fun playing!</strong>
+                    </p>
+                </article>
+
+                <section>
+                    <article class="project__meta-group">
+                        <h3 class="project__heading project__heading--meta">
+                            Technologies used
+                        </h3>
+                        <ul class="technology-list">
+                            <li class="technology-list__item">Python</li>
+                            <li class="technology-list__item">SQLite</li>
+                        </ul>
+                    </article>
+
+                    <a class="cta" href="{{ project['link'] }}">
+                        <img class="cta__icon" src="{{ url_for('static', filename='img/cta.png') }}" alt="Call to action icon">
+                        Check on GitHub
+                    </a>
+                </section>
+            </article>
+        </div>
+
+    </main>
+
+{% endblock %}

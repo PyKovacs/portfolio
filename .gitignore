@@ -1,0 +1,10 @@
+notes/
+.venv/
+data.db
+.vscode/
+*.egg-info/
+*.egg
+__pycache__/
+.mypy_cache/
+*.pyc
+instance/
