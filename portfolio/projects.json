@@ -11,15 +11,15 @@
         "name": "Techie blog with Python, Flask and MongoDB",
         "thumb": "img/micro-blog_th.png",
         "hero": "img/micro-blog.png",
-        "categories": ["python", "blog"],
+        "categories": ["python", "flask", "blog"],
         "slug": "techie-blog",
-        "link": "https://github.com/PyKovacs/CyberPit"
+        "link": "https://github.com/PyKovacs/micro-blog"
     },
     {
         "name": "Post section REST API with Flask and SQLite",
         "thumb": "img/api_th.png",
         "hero": "img/api.png",
-        "categories": ["python", "rest"],
+        "categories": ["python", "flask", "rest"],
         "slug": "post-section",
         "link": "https://github.com/PyKovacs/post-section"
     }

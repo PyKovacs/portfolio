@@ -5,7 +5,7 @@
             <img 
                 class="hero" 
                 src="{{ url_for('static', filename=project['hero']) }}" 
-                alt="Two robots fighting in the arena."
+                alt="Man behind transparent screen with technology theme."
             >
 
             <article class="project">
@@ -14,13 +14,10 @@
                         {{ project['name'] }}
                     </h2>
                     <p>
-                        CyberPit is my first larger project in Python. I consider it as my Python playground from early days. I used to play with classes, data structures, app design concepts. <em>I spent most of the time refactoring</em>. I learned simple user management, SQL DB interaction, terminal interaction and much more. I had to abandon this project to create some time for other projects and work. Game is fully playable, although it might need some fine-tuning and user testing. Maybe one day...
+                        Techie-blog is very similiar to post-section project, but there is also frontend developed in HMTL/CSS. Mongo DB as a document DB was used to store blog entries and user informations. This is my first backend + frontend project, where I learned how the frontend interacts with backend and vice versa.
                     </p>
                     <p>
-                        You play as a techie owning a battle robot, meeting other robots in the arena to fight. Each robot is unique and has unique set of weapons, dealing different points of damage. You get to buy a robot at the start of the game. For each victory you gain more credits and can afford better bot. Bot selection is limited, but can be easily enriched by manually adding custom bots to json file.
-                    </p>
-                    <p>
-                        <strong>Have fun playing!</strong>
+                        You need to login as a user in order to post an entry. All the entries are available on the homepage.
                     </p>
                 </article>
 
@@ -31,7 +28,8 @@
                         </h3>
                         <ul class="technology-list">
                             <li class="technology-list__item">Python</li>
-                            <li class="technology-list__item">SQLite</li>
+                            <li class="technology-list__item">HTML/CSS</li>
+                            <li class="technology-list__item">MongoDB</li>
                         </ul>
                     </article>
 

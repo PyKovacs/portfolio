@@ -5,7 +5,7 @@
             <img 
                 class="hero" 
                 src="{{ url_for('static', filename=project['hero']) }}" 
-                alt="Two robots fighting in the arena."
+                alt="API graphics without any deeper meaning."
             >
 
             <article class="project">
@@ -14,13 +14,10 @@
                         {{ project['name'] }}
                     </h2>
                     <p>
-                        CyberPit is my first larger project in Python. I consider it as my Python playground from early days. I used to play with classes, data structures, app design concepts. <em>I spent most of the time refactoring</em>. I learned simple user management, SQL DB interaction, terminal interaction and much more. I had to abandon this project to create some time for other projects and work. Game is fully playable, although it might need some fine-tuning and user testing. Maybe one day...
+                        Post-section was my evaluation assignment for Python Developer position. I was not very familiar with any python web framework when starting to work on this, and Flask seemed to be the easiest option. I used ORM for SQLite DB interaction. API Documentation is written in Swagger.
                     </p>
                     <p>
-                        You play as a techie owning a battle robot, meeting other robots in the arena to fight. Each robot is unique and has unique set of weapons, dealing different points of damage. You get to buy a robot at the start of the game. For each victory you gain more credits and can afford better bot. Bot selection is limited, but can be easily enriched by manually adding custom bots to json file.
-                    </p>
-                    <p>
-                        <strong>Have fun playing!</strong>
+                        This is purely backend project, with no FE implemented. You can interface with API: post, edit, get or delete posts (for more info check the docu in Swagger). Posts are stored in local DB. There is also integration with 3rd party API.
                     </p>
                 </article>
 
@@ -32,6 +29,7 @@
                         <ul class="technology-list">
                             <li class="technology-list__item">Python</li>
                             <li class="technology-list__item">SQLite</li>
+                            <li class="technology-list__item">Swagger</li>
                         </ul>
                     </article>
 
